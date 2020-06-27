@@ -1,0 +1,105 @@
+/* Basic setup */
+
+@font-face {
+    font-family: "DisposableDroidBB";
+    src: url('fonts/disposabledroid-bb/DisposableDroidBB.ttf');
+}
+
+
+html{
+    font-family: "DisposableDroidBB";
+}
+
+body{
+    margin: auto;
+    text-align: center;
+    background-image: url('img/background.jpg');
+    background-size: 160%;
+    background-repeat: repeat;
+}
+
+#top, #middle{
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+}
+
+/* Logo */
+.logo img{
+    height: 190px;
+    width: 190px;
+    display: block;
+    margin: auto;
+    padding: 2px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 27px;
+}
+
+p{
+    font-size: 20px;
+}
+
+/* Image options */
+.options{
+    display: table; /* shrink wrap the contents */
+    margin: 0 auto;
+}
+
+/* Buttons */
+.btn{
+    border: none;
+    color: black;
+    font-size: 14px;
+    padding: 14px 14px;
+    cursor: pointer; /* pointer cursor on mouse-over */
+    background-color: pink;
+    border-radius: 100px;
+    position: relative;
+}
+
+.A1{
+    left: -45px;
+    top: 95px;
+}
+
+.A2{
+    left: 77px;
+    top: 95px;
+}
+
+.B3{
+    left: 77px;
+    top: 176px;
+}
+
+.B4{
+    left: -45px;
+    top: 176px;
+}
+
+.C5{
+    left: -45px;
+    top: 340px;
+}
+
+.C6{
+    left: 77px;
+    top: 340px;
+}
+
+/* Map */
+.map{
+    height: 531px;
+    width: 750px;
+    background-repeat: no-repeat;
+    background-image: url("img/map.png");
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
